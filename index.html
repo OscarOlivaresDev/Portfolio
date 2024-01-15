@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Oscar Olivares Meriño</title>
+    <link rel="icon" type="image/png" href="./img/code.png">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!--Menú-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Oscar</a>
+            </div>
+            <nav id="navbar">
+                 <ul>
+                    <li><a href="#home" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#aboutme" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="selccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="sleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contact" onclick="seleccionar()">CONTACT ME</a></li> 
+                 </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--Home-->
+    <section id="home" class="home">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/yo1.png" alt="">
+            </div>
+            <h1>Oscar Olivares Meriño</h1>
+            <h2>Full Stack Developer</h2>
+            <div class="social">
+                <a href="http://github.com/OscarOlivaresDev" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/oscar-andres-olivares-meri%C3%B1o-6a8069262/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--About me-->
+    <section id="aboutme" class="aboutme">
+        <div class="container-seccion">
+            <h2>About Me</h2>
+            <p style="font-size: 20px;"><span>¡Hola, mi nombre es Oscar! Actualmente soy estudiante de noveno semestre en la carrera de Ingeniería de Sistemas y Computación. Apasionado por el aprendizaje autodidacta, la programación y las nuevas tecnologías. Mi objetivo es combinar mis habilidades técnicas con mi pasión por la resolución de problemas para crear soluciones innovadoras y eficientes. Trabajar en proyectos de desarrollo me han permitido adquirir un conocimiento en arquitecturas de software y metodologías ágiles. 🤓​💻​</span>
+            </p>
+            <div class="row">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthay</strong>
+                            08-10-1999
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            +57 3134606696
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            iamoscarolivares@gmail.com
+                        </li>
+                    </ul>
+                </div>
+                <!--Hobbies-->
+                <div class="col">
+                    <h3>Hobbies</h3>
+                    <div class="container-hobbies">
+                        <div class="hobbies">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="hobbies">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="hobbies">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FÚTBOL</span>
+                        </div>
+                        <div class="hobbies">
+                            <i class="fa-solid fa-code"></i>
+                            <span>CODE</span>
+                        </div>
+                        <div class="hobbies">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <a download="Hoja de vida - Oscar Olivares Meriño" href="cvOscarOlivares.pdf">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </a>
+        </div>
+    </section>
+
+    <!--Skills-->
+    <section id="skills" class="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso html">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso css">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                            <div class="progreso angular">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>TypeScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso typescript">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso bootstrap">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso figma">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C# .NET</span>
+                        <div class="barra-skill">
+                            <div class="progreso net">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL Server</span>
+                        <div class="barra-skill">
+                            <div class="progreso sql">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajoEnEquipo">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Curriculum-->
+    <section id="curriculum" class="curriculum">
+        <div class="container-seccion">
+            <h2>Curriculum</h2>
+            <div class="row">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h2>Frontend Developer</h2>
+                        <span class="casa">Platzi</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Ruta de formación del programa Empoderatech de la Alcaldía de Barranquilla, Endeavor y Platzi.
+                            El programa constó de 13 cursos sobre tecnología con foco en desarrollo web (JavaScript y Reactjs).
+                        </p>
+                        <div class="conectorr">
+                            <div class="circlei"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h2>Ingeniería de Sistemas y Computación</h2>
+                        <span class="casa">Corporación Universitaria Latinoamericana CUL</span>
+                        <span class="fecha">Semestre: IX (Actual)</span>
+                        <div class="conectorr">
+                            <div class="circlei"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h2>Desarrollador de Software</h2>
+                        <span class="casa">Sistemas Infotec S.A.S</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p> Tareas: Desarrollo web Frontend. 
+                            Tecnlogías: HTML, CSS, Bootstrap, JavaScript, Angular y TypeScript.
+                            Metodologia ágil: Scrum 
+                        </p>
+                        <div class="conectord">
+                            <div class="circled"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h2>Analista de Desarrollo de Software</h2>
+                        <span class="casa">Viva 1A IPS</span>
+                        <span class="fecha">2023</span>
+                        <p>Tareas: Desarrollo Frontend.
+                            Tecnologías: HTML, CSS, Bootstrap, Figma, JavaScript, Angular y TypeScript.
+                        </p>
+                        <div class="conectord">
+                            <div class="circled"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Portfolio-->
+    <section id="portfolio" class="portfolio">
+        <div class="container-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Sistema de Empleados</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Busca tu Pokémon favorito</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>App - Noticias</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Login - Dashboard</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>App - Clima</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contacto-->
+    <section id="contact" class="contact">
+        <div class="container-seccion">
+            <h2>Contact</h2>
+            <div class="row">
+                <form class="col" id="form">
+                    <input name="name" required type="text" placeholder="Tú nombre">
+                    <input name="phone" required type="text" placeholder="Teléfono">
+                    <input name="email" required type="text" placeholder="Email">
+                    <input name="asunto" required type="text" placeholder="Asunto">
+                    <textarea name="message" required id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button type="submit">
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
+                <a href="mailto:iamoscarolivares@gmail.com" id="jugada">mail</a>
+                <div class="col">
+                    <i class="fa-solid fa-location-dot" id="location"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <a href="#home" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="social">
+            <a href="http://github.com/OscarOlivaresDev" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/oscar-andres-olivares-meri%C3%B1o-6a8069262/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p style="font-family: 'Work Sans'; text-align: center;"><strong>Barranquilla - Colombia. 🇨🇴 ⚡</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
